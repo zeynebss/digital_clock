@@ -1,0 +1,41 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,lightblue,pink,lightblue,pink);
+    .clock{
+        width: 500px;
+        height: 150px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            position: relative;
+            background-color: white;
+            width: 150px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 60px;
+            color: rebeccapurple;
+            border-radius: 8px;
+            box-shadow: 0 15px 30px rgba(0, 0 ,0 ,0.3);
+            letter-spacing: 3px;
+        }
+        span{
+            font-weight: bolder;
+            font-size: 60px;
+            color: rebeccapurple;
+        }
+    }
+}
